@@ -27,9 +27,9 @@ class Database extends Config
     public array $default = [
         'DSN'          => '',
         'hostname'     => 'localhost',
-        'username'     => 'root',
-        'password'     => '',
-        'database'     => 'jacket_store',
+        'username'     => 'straven1_jackets',
+        'password'     => 'x~y=I7bgK+T?',
+        'database'     => 'straven1_jackets',
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
         'pConnect'     => false,
