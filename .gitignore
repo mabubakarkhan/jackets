@@ -1,0 +1,6 @@
+# Ignore uploads folder
+public/uploads/
+
+# Ignore app/database folder
+app/Config/App.php
+app/Config/Database.php
