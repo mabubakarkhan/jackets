@@ -1,0 +1,1 @@
+\$row['key'] . ' = . \$row['value'] . PHP_EOL;

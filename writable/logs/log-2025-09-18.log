@@ -1,0 +1,693 @@
+ERROR - 2025-09-18 07:47:59 --> mysqli_sql_exception: Table 'categories' already exists in C:\xampp\htdocs\jacket\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\jacket\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `c...', 0)
+#1 C:\xampp\htdocs\jacket\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `c...')
+#2 C:\xampp\htdocs\jacket\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `c...')
+#3 C:\xampp\htdocs\jacket\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `c...')
+#4 C:\xampp\htdocs\jacket\app\Database\Migrations\2024-01-01-000002_CreateCategoriesTable.php(78): CodeIgniter\Database\Forge->createTable('categories')
+#5 C:\xampp\htdocs\jacket\system\Database\MigrationRunner.php(876): App\Database\Migrations\CreateCategoriesTable->up()
+#6 C:\xampp\htdocs\jacket\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\jacket\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\jacket\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\jacket\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\jacket\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\jacket\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\jacket\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-09-18 09:43:27 --> mysqli_sql_exception: Table 'categories' already exists in C:\xampp\htdocs\jacket\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\jacket\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `c...', 0)
+#1 C:\xampp\htdocs\jacket\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `c...')
+#2 C:\xampp\htdocs\jacket\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `c...')
+#3 C:\xampp\htdocs\jacket\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `c...')
+#4 C:\xampp\htdocs\jacket\app\Database\Migrations\2024-01-01-000002_CreateCategoriesTable.php(78): CodeIgniter\Database\Forge->createTable('categories')
+#5 C:\xampp\htdocs\jacket\system\Database\MigrationRunner.php(876): App\Database\Migrations\CreateCategoriesTable->up()
+#6 C:\xampp\htdocs\jacket\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\jacket\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\jacket\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\jacket\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\jacket\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\jacket\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\jacket\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-09-18 09:51:54 --> ParseError: Unmatched '}'
+[Method: CLI, Route: migrate]
+in APPPATH\Config\Routes.php on line 48.
+ 1 SYSTEMPATH\CLI\Console.php(41): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\Boot.php(388): CodeIgniter\CLI\Console->run()
+ 3 SYSTEMPATH\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 4 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+ERROR - 2025-09-18 09:52:17 --> mysqli_sql_exception: Table 'categories' already exists in C:\xampp\htdocs\jacket\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\jacket\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `c...', 0)
+#1 C:\xampp\htdocs\jacket\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `c...')
+#2 C:\xampp\htdocs\jacket\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `c...')
+#3 C:\xampp\htdocs\jacket\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `c...')
+#4 C:\xampp\htdocs\jacket\app\Database\Migrations\2024-01-01-000002_CreateCategoriesTable.php(78): CodeIgniter\Database\Forge->createTable('categories')
+#5 C:\xampp\htdocs\jacket\system\Database\MigrationRunner.php(876): App\Database\Migrations\CreateCategoriesTable->up()
+#6 C:\xampp\htdocs\jacket\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\jacket\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\jacket\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\jacket\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\jacket\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\jacket\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\jacket\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-09-18 10:34:08 --> Error: Cannot call constructor
+[Method: GET, Route: customer/login]
+in APPPATH\Controllers\CustomerAuth.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\CustomerAuth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 10:35:09 --> Error: Cannot call constructor
+[Method: GET, Route: admin/coupons]
+in APPPATH\Controllers\Admin\Coupons.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Coupons->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-09-18 10:36:21 --> mysqli_sql_exception: Table 'categories' already exists in C:\xampp\htdocs\jacket\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\jacket\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `c...', 0)
+#1 C:\xampp\htdocs\jacket\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `c...')
+#2 C:\xampp\htdocs\jacket\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `c...')
+#3 C:\xampp\htdocs\jacket\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `c...')
+#4 C:\xampp\htdocs\jacket\app\Database\Migrations\2024-01-01-000002_CreateCategoriesTable.php(78): CodeIgniter\Database\Forge->createTable('categories')
+#5 C:\xampp\htdocs\jacket\system\Database\MigrationRunner.php(876): App\Database\Migrations\CreateCategoriesTable->up()
+#6 C:\xampp\htdocs\jacket\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\jacket\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\jacket\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\jacket\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\jacket\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\jacket\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\jacket\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-09-18 10:44:00 --> Error: Cannot call constructor
+[Method: GET, Route: admin/coupons]
+in APPPATH\Controllers\Admin\Coupons.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Coupons->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 12:01:49 --> Error: Cannot call constructor
+[Method: GET, Route: customer/dashboard]
+in APPPATH\Controllers\Customer.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Customer->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 12:13:15 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/admin.php"
+[Method: GET, Route: admin/coupons]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/admin.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/admin', [], true)
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/coupons/index', [], true)
+ 4 APPPATH\Controllers\Admin\Coupons.php(24): view('admin/coupons/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Coupons->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Coupons))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 12:13:19 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/admin.php"
+[Method: GET, Route: admin/coupons]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/admin.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/admin', [], true)
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/coupons/index', [], true)
+ 4 APPPATH\Controllers\Admin\Coupons.php(24): view('admin/coupons/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Coupons->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Coupons))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 12:13:19 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/admin.php"
+[Method: GET, Route: admin/coupons]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/admin.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/admin', [], true)
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/coupons/index', [], true)
+ 4 APPPATH\Controllers\Admin\Coupons.php(24): view('admin/coupons/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Coupons->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Coupons))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 12:13:19 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/admin.php"
+[Method: GET, Route: admin/coupons]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/admin.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/admin', [], true)
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/coupons/index', [], true)
+ 4 APPPATH\Controllers\Admin\Coupons.php(24): view('admin/coupons/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Coupons->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Coupons))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 12:13:19 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/admin.php"
+[Method: GET, Route: admin/coupons]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/admin.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/admin', [], true)
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/coupons/index', [], true)
+ 4 APPPATH\Controllers\Admin\Coupons.php(24): view('admin/coupons/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Coupons->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Coupons))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 12:13:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/admin.php"
+[Method: GET, Route: admin/coupons]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/admin.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/admin', [], true)
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/coupons/index', [], true)
+ 4 APPPATH\Controllers\Admin\Coupons.php(24): view('admin/coupons/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Coupons->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Coupons))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 12:13:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/admin.php"
+[Method: GET, Route: admin/coupons]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/admin.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/admin', [], true)
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/coupons/index', [], true)
+ 4 APPPATH\Controllers\Admin\Coupons.php(24): view('admin/coupons/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Coupons->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Coupons))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 12:13:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/admin.php"
+[Method: GET, Route: admin/coupons]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/admin.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/admin', [], true)
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/coupons/index', [], true)
+ 4 APPPATH\Controllers\Admin\Coupons.php(24): view('admin/coupons/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Coupons->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Coupons))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 12:13:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/admin.php"
+[Method: GET, Route: admin/coupons]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/admin.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/admin', [], true)
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/coupons/index', [], true)
+ 4 APPPATH\Controllers\Admin\Coupons.php(24): view('admin/coupons/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Coupons->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Coupons))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 12:14:36 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "customer/addresses.php"
+[Method: GET, Route: customer/addresses]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer/addresses.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('customer/addresses', [], true)
+ 3 APPPATH\Controllers\Customer.php(182): view('customer/addresses', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Customer->addresses()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 12:14:47 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "customer/wishlist.php"
+[Method: GET, Route: customer/wishlist]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer/wishlist.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('customer/wishlist', [], true)
+ 3 APPPATH\Controllers\Customer.php(163): view('customer/wishlist', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Customer->wishlist()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 12:23:16 --> ErrorException: Undefined variable $customer
+[Method: GET, Route: checkout]
+in APPPATH\Controllers\Shop.php on line 623.
+ 1 APPPATH\Controllers\Shop.php(623): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customer', 'C:\\xampp\\htdocs\\jacket\\app\\Controllers\\Shop.php', 623)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Shop->checkout()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 12:31:18 --> ErrorException: Undefined variable $discount_amount
+[Method: GET, Route: checkout]
+in APPPATH\Views\shop\checkout.php on line 89.
+ 1 APPPATH\Views\shop\checkout.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $discount_amount', 'C:\\xampp\\htdocs\\jacket\\app\\Views\\shop\\checkout.php', 89)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\jacket\\app\\Views\\shop\\checkout.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('shop/checkout', [], true)
+ 5 APPPATH\Controllers\Shop.php(638): view('shop/checkout', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Shop->checkout()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 12:31:20 --> ErrorException: Undefined variable $discount_amount
+[Method: GET, Route: checkout]
+in APPPATH\Views\shop\checkout.php on line 89.
+ 1 APPPATH\Views\shop\checkout.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $discount_amount', 'C:\\xampp\\htdocs\\jacket\\app\\Views\\shop\\checkout.php', 89)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\jacket\\app\\Views\\shop\\checkout.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('shop/checkout', [], true)
+ 5 APPPATH\Controllers\Shop.php(638): view('shop/checkout', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Shop->checkout()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 12:31:48 --> ErrorException: Undefined variable $discount_amount
+[Method: GET, Route: checkout]
+in APPPATH\Views\shop\checkout.php on line 89.
+ 1 APPPATH\Views\shop\checkout.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $discount_amount', 'C:\\xampp\\htdocs\\jacket\\app\\Views\\shop\\checkout.php', 89)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\jacket\\app\\Views\\shop\\checkout.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('shop/checkout', [], true)
+ 5 APPPATH\Controllers\Shop.php(638): view('shop/checkout', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Shop->checkout()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-09-18 12:50:06 --> mysqli_sql_exception: Table 'categories' already exists in C:\xampp\htdocs\jacket\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\jacket\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `c...', 0)
+#1 C:\xampp\htdocs\jacket\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `c...')
+#2 C:\xampp\htdocs\jacket\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `c...')
+#3 C:\xampp\htdocs\jacket\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `c...')
+#4 C:\xampp\htdocs\jacket\app\Database\Migrations\2024-01-01-000002_CreateCategoriesTable.php(78): CodeIgniter\Database\Forge->createTable('categories')
+#5 C:\xampp\htdocs\jacket\system\Database\MigrationRunner.php(876): App\Database\Migrations\CreateCategoriesTable->up()
+#6 C:\xampp\htdocs\jacket\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\jacket\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\jacket\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\jacket\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\jacket\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\jacket\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\jacket\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-09-18 13:02:50 --> mysqli_sql_exception: Table 'categories' already exists in C:\xampp\htdocs\jacket\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\jacket\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `c...', 0)
+#1 C:\xampp\htdocs\jacket\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `c...')
+#2 C:\xampp\htdocs\jacket\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `c...')
+#3 C:\xampp\htdocs\jacket\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `c...')
+#4 C:\xampp\htdocs\jacket\app\Database\Migrations\2024-01-01-000002_CreateCategoriesTable.php(78): CodeIgniter\Database\Forge->createTable('categories')
+#5 C:\xampp\htdocs\jacket\system\Database\MigrationRunner.php(876): App\Database\Migrations\CreateCategoriesTable->up()
+#6 C:\xampp\htdocs\jacket\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\jacket\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\jacket\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\jacket\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\jacket\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\jacket\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\jacket\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-09-18 13:03:32 --> mysqli_sql_exception: Table 'categories' already exists in C:\xampp\htdocs\jacket\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\jacket\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `c...', 0)
+#1 C:\xampp\htdocs\jacket\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `c...')
+#2 C:\xampp\htdocs\jacket\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `c...')
+#3 C:\xampp\htdocs\jacket\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `c...')
+#4 C:\xampp\htdocs\jacket\app\Database\Migrations\2024-01-01-000002_CreateCategoriesTable.php(78): CodeIgniter\Database\Forge->createTable('categories')
+#5 C:\xampp\htdocs\jacket\system\Database\MigrationRunner.php(876): App\Database\Migrations\CreateCategoriesTable->up()
+#6 C:\xampp\htdocs\jacket\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\jacket\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\jacket\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\jacket\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\jacket\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\jacket\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\jacket\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-09-18 13:04:07 --> mysqli_sql_exception: Unknown column 'product_sku' in 'field list' in C:\xampp\htdocs\jacket\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\jacket\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `or...', 0)
+#1 C:\xampp\htdocs\jacket\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 C:\xampp\htdocs\jacket\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 C:\xampp\htdocs\jacket\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 C:\xampp\htdocs\jacket\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\jacket\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\jacket\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\jacket\app\Controllers\Shop.php(977): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\jacket\system\CodeIgniter.php(933): App\Controllers\Shop->placeOrder()
+#9 C:\xampp\htdocs\jacket\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#10 C:\xampp\htdocs\jacket\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\jacket\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\jacket\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\jacket\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2025-09-18 13:04:07 --> Order placement error: Unknown column 'product_sku' in 'field list'
+ERROR - 2025-09-18 13:04:07 --> Order placement stack trace: #0 C:\xampp\htdocs\jacket\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#1 C:\xampp\htdocs\jacket\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#2 C:\xampp\htdocs\jacket\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#3 C:\xampp\htdocs\jacket\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#4 C:\xampp\htdocs\jacket\app\Controllers\Shop.php(977): CodeIgniter\Model->insert(Array)
+#5 C:\xampp\htdocs\jacket\system\CodeIgniter.php(933): App\Controllers\Shop->placeOrder()
+#6 C:\xampp\htdocs\jacket\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#7 C:\xampp\htdocs\jacket\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jacket\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\jacket\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\jacket\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2025-09-18 13:05:38 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\xampp\htdocs\jacket\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\jacket\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `or...', 0)
+#1 C:\xampp\htdocs\jacket\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 C:\xampp\htdocs\jacket\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 C:\xampp\htdocs\jacket\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 C:\xampp\htdocs\jacket\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\jacket\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\jacket\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\jacket\app\Controllers\Shop.php(973): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\jacket\system\CodeIgniter.php(933): App\Controllers\Shop->placeOrder()
+#9 C:\xampp\htdocs\jacket\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#10 C:\xampp\htdocs\jacket\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\jacket\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\jacket\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\jacket\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2025-09-18 13:05:38 --> Order placement error: Unknown column 'updated_at' in 'field list'
+ERROR - 2025-09-18 13:05:38 --> Order placement stack trace: #0 C:\xampp\htdocs\jacket\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#1 C:\xampp\htdocs\jacket\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#2 C:\xampp\htdocs\jacket\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#3 C:\xampp\htdocs\jacket\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#4 C:\xampp\htdocs\jacket\app\Controllers\Shop.php(973): CodeIgniter\Model->insert(Array)
+#5 C:\xampp\htdocs\jacket\system\CodeIgniter.php(933): App\Controllers\Shop->placeOrder()
+#6 C:\xampp\htdocs\jacket\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#7 C:\xampp\htdocs\jacket\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jacket\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\jacket\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\jacket\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2025-09-18 13:07:24 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\xampp\htdocs\jacket\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\jacket\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `or...', 0)
+#1 C:\xampp\htdocs\jacket\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 C:\xampp\htdocs\jacket\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 C:\xampp\htdocs\jacket\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 C:\xampp\htdocs\jacket\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\jacket\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\jacket\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\jacket\app\Controllers\Shop.php(973): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\jacket\system\CodeIgniter.php(933): App\Controllers\Shop->placeOrder()
+#9 C:\xampp\htdocs\jacket\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#10 C:\xampp\htdocs\jacket\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\jacket\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\jacket\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\jacket\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2025-09-18 13:07:24 --> Order placement error: Unknown column 'updated_at' in 'field list'
+ERROR - 2025-09-18 13:07:24 --> Order placement stack trace: #0 C:\xampp\htdocs\jacket\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#1 C:\xampp\htdocs\jacket\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#2 C:\xampp\htdocs\jacket\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#3 C:\xampp\htdocs\jacket\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#4 C:\xampp\htdocs\jacket\app\Controllers\Shop.php(973): CodeIgniter\Model->insert(Array)
+#5 C:\xampp\htdocs\jacket\system\CodeIgniter.php(933): App\Controllers\Shop->placeOrder()
+#6 C:\xampp\htdocs\jacket\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#7 C:\xampp\htdocs\jacket\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jacket\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\jacket\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\jacket\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2025-09-18 13:07:36 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\xampp\htdocs\jacket\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\jacket\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `or...', 0)
+#1 C:\xampp\htdocs\jacket\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 C:\xampp\htdocs\jacket\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 C:\xampp\htdocs\jacket\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 C:\xampp\htdocs\jacket\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\jacket\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\jacket\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\jacket\app\Controllers\Shop.php(973): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\jacket\system\CodeIgniter.php(933): App\Controllers\Shop->placeOrder()
+#9 C:\xampp\htdocs\jacket\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#10 C:\xampp\htdocs\jacket\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\jacket\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\jacket\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\jacket\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2025-09-18 13:07:36 --> Order placement error: Unknown column 'updated_at' in 'field list'
+ERROR - 2025-09-18 13:07:36 --> Order placement stack trace: #0 C:\xampp\htdocs\jacket\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#1 C:\xampp\htdocs\jacket\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#2 C:\xampp\htdocs\jacket\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#3 C:\xampp\htdocs\jacket\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#4 C:\xampp\htdocs\jacket\app\Controllers\Shop.php(973): CodeIgniter\Model->insert(Array)
+#5 C:\xampp\htdocs\jacket\system\CodeIgniter.php(933): App\Controllers\Shop->placeOrder()
+#6 C:\xampp\htdocs\jacket\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#7 C:\xampp\htdocs\jacket\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jacket\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\jacket\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\jacket\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2025-09-18 13:10:13 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\xampp\htdocs\jacket\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\jacket\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `or...', 0)
+#1 C:\xampp\htdocs\jacket\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 C:\xampp\htdocs\jacket\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 C:\xampp\htdocs\jacket\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 C:\xampp\htdocs\jacket\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\jacket\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\jacket\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\jacket\app\Models\OrderItemModel.php(40): CodeIgniter\Model->insert(Array, true)
+#8 C:\xampp\htdocs\jacket\app\Controllers\Shop.php(973): App\Models\OrderItemModel->insert(Array)
+#9 C:\xampp\htdocs\jacket\system\CodeIgniter.php(933): App\Controllers\Shop->placeOrder()
+#10 C:\xampp\htdocs\jacket\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#11 C:\xampp\htdocs\jacket\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\jacket\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\jacket\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\jacket\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+ERROR - 2025-09-18 13:10:13 --> Order placement error: Unknown column 'updated_at' in 'field list'
+ERROR - 2025-09-18 13:10:13 --> Order placement stack trace: #0 C:\xampp\htdocs\jacket\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#1 C:\xampp\htdocs\jacket\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#2 C:\xampp\htdocs\jacket\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#3 C:\xampp\htdocs\jacket\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#4 C:\xampp\htdocs\jacket\app\Models\OrderItemModel.php(40): CodeIgniter\Model->insert(Array, true)
+#5 C:\xampp\htdocs\jacket\app\Controllers\Shop.php(973): App\Models\OrderItemModel->insert(Array)
+#6 C:\xampp\htdocs\jacket\system\CodeIgniter.php(933): App\Controllers\Shop->placeOrder()
+#7 C:\xampp\htdocs\jacket\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#8 C:\xampp\htdocs\jacket\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\jacket\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\jacket\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\jacket\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-09-18 13:13:14 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "customer/order_detail.php"
+[Method: GET, Route: customer/order-detail/6]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer/order_detail.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('customer/order_detail', [], true)
+ 3 APPPATH\Controllers\Customer.php(90): view('customer/order_detail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Customer->orderDetail('6')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 13:46:23 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "customer/wishlist.php"
+[Method: GET, Route: customer/wishlist]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer/wishlist.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('customer/wishlist', [], true)
+ 3 APPPATH\Controllers\Customer.php(189): view('customer/wishlist', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Customer->wishlist()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 13:46:49 --> Error: Call to undefined method CodeIgniter\View\View::getStatusColor()
+[Method: GET, Route: admin/orders]
+in APPPATH\Views\admin\orders\index.php on line 123.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/orders/index', [], true)
+ 4 APPPATH\Controllers\Admin\Orders.php(68): view('admin/orders/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Orders->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Orders))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 13:52:38 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "customer/wishlist.php"
+[Method: GET, Route: customer/wishlist]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer/wishlist.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('customer/wishlist', [], true)
+ 3 APPPATH\Controllers\Customer.php(189): view('customer/wishlist', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Customer->wishlist()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 13:54:25 --> Error: Call to a member function getOrderWithItems() on null
+[Method: GET, Route: admin/orders/view/6]
+in APPPATH\Controllers\Admin\Orders.php on line 109.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Orders->view('6')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Orders))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 13:54:46 --> Error: Call to a member function update() on null
+[Method: POST, Route: admin/orders/update-status]
+in APPPATH\Controllers\Admin\Orders.php on line 141.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Orders->updateStatus()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Orders))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 13:55:26 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: admin/settings]
+in APPPATH\Controllers\Admin\Settings.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Settings->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Settings))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 14:00:05 --> Error: Call to undefined method CodeIgniter\View\View::getStatusColor()
+[Method: GET, Route: admin/orders/view/6]
+in APPPATH\Views\admin\orders\view.php on line 42.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/orders/view', [], true)
+ 4 APPPATH\Controllers\Admin\Orders.php(129): view('admin/orders/view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Orders->view('6')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Orders))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 14:03:10 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "customer/addresses.php"
+[Method: GET, Route: customer/addresses]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer/addresses.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('customer/addresses', [], true)
+ 3 APPPATH\Controllers\Customer.php(208): view('customer/addresses', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Customer->addresses()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 14:03:27 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "customer/addresses.php"
+[Method: GET, Route: customer/addresses]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer/addresses.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('customer/addresses', [], true)
+ 3 APPPATH\Controllers\Customer.php(208): view('customer/addresses', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Customer->addresses()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 14:04:05 --> ErrorException: Undefined array key "product_image"
+[Method: GET, Route: admin/orders/view/6]
+in APPPATH\Views\admin\orders\view.php on line 107.
+ 1 APPPATH\Views\admin\orders\view.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_image"', 'C:\\xampp\\htdocs\\jacket\\app\\Views\\admin\\orders\\view.php', 107)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\jacket\\app\\Views\\admin\\orders\\view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/orders/view', [], true)
+ 5 APPPATH\Controllers\Admin\Orders.php(131): view('admin/orders/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Orders->view('6')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Orders))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 14:04:26 --> ParseError: syntax error, unexpected token "(", expecting variable or "{" or "$"
+[Method: GET, Route: admin/orders]
+in APPPATH\Views\admin\orders\index.php on line 303.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/orders/index', [], true)
+ 3 APPPATH\Controllers\Admin\Orders.php(76): view('admin/orders/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Orders->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Orders))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 14:04:32 --> ParseError: syntax error, unexpected token "(", expecting variable or "{" or "$"
+[Method: GET, Route: admin/orders]
+in APPPATH\Views\admin\orders\index.php on line 303.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/orders/index', [], true)
+ 3 APPPATH\Controllers\Admin\Orders.php(76): view('admin/orders/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Orders->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Orders))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 14:07:14 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "customer/addresses.php"
+[Method: GET, Route: customer/addresses]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer/addresses.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('customer/addresses', [], true)
+ 3 APPPATH\Controllers\Customer.php(208): view('customer/addresses', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Customer->addresses()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 14:08:41 --> ErrorException: Undefined array key "admin_notes"
+[Method: GET, Route: admin/orders/view/6]
+in APPPATH\Views\admin\orders\view.php on line 132.
+ 1 APPPATH\Views\admin\orders\view.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "admin_notes"', 'C:\\xampp\\htdocs\\jacket\\app\\Views\\admin\\orders\\view.php', 132)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\jacket\\app\\Views\\admin\\orders\\view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/orders/view', [], true)
+ 5 APPPATH\Controllers\Admin\Orders.php(131): view('admin/orders/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Orders->view('6')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Orders))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-09-18 14:57:06 --> mysqli_sql_exception: Table 'categories' already exists in C:\xampp\htdocs\jacket\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\jacket\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `c...', 0)
+#1 C:\xampp\htdocs\jacket\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `c...')
+#2 C:\xampp\htdocs\jacket\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `c...')
+#3 C:\xampp\htdocs\jacket\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `c...')
+#4 C:\xampp\htdocs\jacket\app\Database\Migrations\2024-01-01-000002_CreateCategoriesTable.php(78): CodeIgniter\Database\Forge->createTable('categories')
+#5 C:\xampp\htdocs\jacket\system\Database\MigrationRunner.php(876): App\Database\Migrations\CreateCategoriesTable->up()
+#6 C:\xampp\htdocs\jacket\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\jacket\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\jacket\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\jacket\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\jacket\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\jacket\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\jacket\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}

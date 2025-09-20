@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+
+# Disallow admin area
+Disallow: /admin/
+
+# Disallow system files
+Disallow: /system/
+Disallow: /app/
+Disallow: /writable/
+
+# Allow important pages
+Allow: /about-us
+Allow: /contact-us
+Allow: /privacy-policy
+Allow: /return-policy
+Allow: /terms-and-conditions
+Allow: /shop
+Allow: /category/
+Allow: /product/
+
+# Sitemap
+Sitemap: https://yourdomain.com/sitemap.xml 

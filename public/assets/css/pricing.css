@@ -1,0 +1,112 @@
+/* Global Pricing Styles for Jacket Store */
+
+/* Product Price Display */
+.product-price,
+.price {
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+}
+
+/* Sale Price (Current/New Price) */
+.new-price,
+.price .text-danger {
+    color: #e74c3c !important;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+/* Regular Price (Original Price) */
+.old-price,
+.price .text-decoration-line-through {
+    color: #999 !important;
+    text-decoration: line-through;
+    margin-right: 0.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* Regular Price (No Sale) */
+.price .fw-bold:not(.text-danger) {
+    color: #333 !important;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+/* Product Card Pricing */
+.product-card .price {
+    margin-bottom: 1rem;
+}
+
+.product-card .price .text-decoration-line-through {
+    margin-right: 0.5rem;
+}
+
+/* Admin Product List Pricing */
+.admin-product-price {
+    font-weight: 600;
+    color: #333;
+}
+
+/* Responsive Pricing */
+@media (max-width: 768px) {
+    .new-price,
+    .price .text-danger {
+        font-size: 1.1rem;
+    }
+    
+    .old-price,
+    .price .text-decoration-line-through {
+        font-size: 0.9rem;
+    }
+}
+
+/* Price Badge Styles */
+.price-badge {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.price-badge.sale {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.price-badge.regular {
+    background-color: #f8f9fa;
+    color: #333;
+    border: 1px solid #dee2e6;
+}
+
+/* Price Comparison */
+.price-comparison {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.price-comparison .current-price {
+    color: #e74c3c;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.price-comparison .original-price {
+    color: #999;
+    text-decoration: line-through;
+    font-size: 1rem;
+}
+
+/* Discount Percentage */
+.discount-percentage {
+    background-color: #e74c3c;
+    color: white;
+    padding: 0.125rem 0.375rem;
+    border-radius: 0.25rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-left: 0.5rem;
+}
